@@ -1,3 +1,12 @@
+ssh ying1016@140.114.28.155
+ssh cedl3
+cd ../../../data/mengli/ying1016/workspace/Facial-Expression-Recognition.Pytorch/
+source activate python27
+source deactivate
+nvidia-smi
+python train.py
+CUDA_VISIBLE_DEVICES=3 python train.py
+
 # Facial-Expression-Recognition.Pytorch
 A CNN based pytorch implementation on facial expression recognition (FER2013 and CK+), achieving 73.112% (state-of-the-art) in FER2013 and 94.64% in CK+ dataset
 
